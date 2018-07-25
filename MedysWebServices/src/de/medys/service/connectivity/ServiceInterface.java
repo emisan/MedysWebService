@@ -14,4 +14,7 @@ public interface ServiceInterface
 	
 	@WebMethod(action="gettime")
 	String getTimeAsString();
+	
+	@WebMethod(action="username")
+	String getUserName();
 }

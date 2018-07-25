@@ -23,5 +23,11 @@ public class HelloWebservice implements ServiceInterface
 	{
 		return LocalDateTime.now().format(new DateTimeFormatterBuilder().toFormatter().withLocale(Locale.getDefault()));
 	}
+
+	@Override
+	public String getUserName()
+	{
+		return "emisan";
+	}
 	
 }
