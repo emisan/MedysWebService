@@ -40,4 +40,9 @@ public class HelloWebservice implements ServiceInterface
 		username = name;
 	}
 	
+	// test ob auf main-branch oder hek_dev branch gepushed wird
+	public int gibZahl()
+	{
+		return 12;
+	}
 }
