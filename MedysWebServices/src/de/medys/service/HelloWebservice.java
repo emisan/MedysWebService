@@ -7,7 +7,7 @@ import javax.jws.WebService;
 
 import de.medys.service.connectivity.ServiceInterface;
 
-@WebService(name="HellosService",
+@WebService(name="HelloWebService",
 			serviceName="HelloWebService",
 			portName="HelloWebServicePort",
 			targetNamespace="http://service.medys.de",
