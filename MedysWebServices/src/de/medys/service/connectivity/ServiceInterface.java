@@ -10,15 +10,15 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style = Style.RPC)
 public interface ServiceInterface
 {
-	@WebMethod(action="sayhello")
+	@WebMethod
 	String sayHello();
 	
-	@WebMethod(action="gettimeasstring")
+	@WebMethod
 	String getTimeAsString();
 	
-	@WebMethod(action="setusername")
+	@WebMethod
 	void setUserName(@WebParam String name);
 	
-	@WebMethod(action="getusername")
+	@WebMethod
 	String getUserName();
 }
