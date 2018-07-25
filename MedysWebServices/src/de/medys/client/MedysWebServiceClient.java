@@ -24,6 +24,7 @@ public class MedysWebServiceClient
 			
 			System.out.println(si.getTimeAsString());
 			System.out.println(si.getUserName());
+			System.out.println(si.sayHello());
 		}
 		catch (MalformedURLException e)
 		{
