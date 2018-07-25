@@ -1,7 +1,5 @@
 package de.medys.service;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatterBuilder;
-import java.util.Locale;
 
 import javax.jws.WebService;
 
@@ -21,7 +19,7 @@ public class HelloWebservice implements ServiceInterface
 	
 	public String getTimeAsString()
 	{
-		return LocalDateTime.now().format(new DateTimeFormatterBuilder().toFormatter().withLocale(Locale.getDefault()));
+		return LocalDateTime.now().toString();
 	}
 
 	@Override

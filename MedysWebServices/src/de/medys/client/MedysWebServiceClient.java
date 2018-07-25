@@ -14,7 +14,7 @@ public class MedysWebServiceClient
 		
 		try
 		{
-			URL url = new URL("http://localhost:7070/HelloWebService?wsdl");
+			URL url = new URL("http://localhost:7070/medys/HelloWebService?wsdl");
 			
 			QName qname = new QName("http://service.medys.de", "HelloWebService");
 			
