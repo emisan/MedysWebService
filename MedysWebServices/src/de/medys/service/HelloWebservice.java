@@ -7,9 +7,9 @@ import javax.jws.WebService;
 
 import de.medys.service.connectivity.ServiceInterface;
 
-@WebService(name="HelloWebService",
-			serviceName="HelloWebService",
-			portName="HelloWebServicePort",
+@WebService(name="HelloService",
+			serviceName="HelloService",
+			portName="HellServicePort",
 			targetNamespace="http://service.medys.de",
 			endpointInterface="de.medys.service.connectivity.ServiceInterface")
 public class HelloWebservice implements ServiceInterface
