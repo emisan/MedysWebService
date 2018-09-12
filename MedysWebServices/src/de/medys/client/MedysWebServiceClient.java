@@ -67,6 +67,7 @@ public class MedysWebServiceClient
 		}
 		return zeit;
 	}
+	
 	public static void main(String[] args) {
 		new MedysWebServiceClient();
 	}

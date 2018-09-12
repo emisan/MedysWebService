@@ -19,5 +19,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
 	<classpathentry kind="lib" path="/MedysDaten/java_workshop/new_jars/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/MedysDaten/java_workshop/new_jars/jsee/ejb-api-3.0.jar"/>
+	<classpathentry kind="lib" path="/MedysDaten/java_workshop/new_jars/jsee/javax.inject-1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

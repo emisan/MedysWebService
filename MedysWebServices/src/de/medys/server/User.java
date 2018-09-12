@@ -1,6 +1,6 @@
 package de.medys.server;
 
-import java.time.LocalDate;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -14,16 +14,15 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="t_users")
+@Table(name="t_users", schema="praxisdaten")
 public class User
 {
 	private Long id;
 	private String vorname;
 	private String nachname;
-	private LocalDate geburtstag;
+	private GregorianCalendar geburtstag;
 	
 	private List<Adresse> adressen;
-	
 	
 	public User()
 	{
@@ -77,12 +76,12 @@ public class User
 	
 	@Column(name="gebutrstag", nullable=false)
 	@Temporal(TemporalType.DATE)
-	public LocalDate getGeburtstag()
+	public GregorianCalendar getGeburtstag()
 	{
 		return geburtstag;
 	}
 
-	public void setGeburtstag(LocalDate geburtstag)
+	public void setGeburtstag(GregorianCalendar geburtstag)
 	{
 		this.geburtstag = geburtstag;
 	}
