@@ -19,7 +19,7 @@ public class HelloWebservice implements ServiceInterface
 	@Override
 	public String sayHello()
 	{
-		return "Hello WebService";
+		return username != null ? "Hallo " + username : "Hallo WebService";
 	}
 	
 	@Override
@@ -38,6 +38,5 @@ public class HelloWebservice implements ServiceInterface
 	public void setUserName(String name)
 	{
 		username = name;
-	}
-	
+	} 
 }
